@@ -1,0 +1,63 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #151515; /* Dark background color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.section {
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.card {
+    background: #2c2c2c; /* Card background color */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.btn {
+    font-size: 3rem;
+    border: none;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    padding: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px; /* Space between button and emoji name */
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 1);
+    transform: scale(1.1);
+}
+
+.emoji-name {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-top: 10px;
+}
