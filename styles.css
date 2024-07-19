@@ -1,7 +1,11 @@
 body {
     padding: 0;
     margin: 0;
-    background: #151515; /* Dark background color */
+    background: linear-gradient(135deg, 
+        #00B0FF 90%,   /* Cool Blue */
+        #7C4DFF 95%,   /* Deep Purple */
+        #D500F9 100%   /* Bold Magenta */
+    );
     display: flex;
     flex-direction: column;
     justify-content: center;
